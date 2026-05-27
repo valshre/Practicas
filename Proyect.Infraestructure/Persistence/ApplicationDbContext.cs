@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.EntityFrameworkCore;
+using TaskManagement.Domain.Entities;
+namespace TaskManagement.Infrastructure.Persistence;
+
+public class ApplicationDbContext : DbContext
+{
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) :
+    base(options)
+    { }
+    public DbSet<TaskItem> Tasks => Set<TaskItem>();
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<TaskItem>().HasKey(t => t.Id);
+        base.OnModelCreating(modelBuilder);
+    }
+}

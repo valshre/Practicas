@@ -1,0 +1,9 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TaskManagement.Application.DTOs;
+
+public record TaskDto(Guid Id, string Title, string Description, bool IsCompleted,
+DateTime CreatedAt);
+public record CreateTaskRequest(string Title, string Description);
