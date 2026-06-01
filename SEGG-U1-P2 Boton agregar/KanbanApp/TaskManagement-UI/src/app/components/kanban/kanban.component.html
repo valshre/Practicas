@@ -1,0 +1,121 @@
+<div class="kanban-wrapper">
+  
+  <div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 20px;">
+    <img src="snoopy1.png" alt="Snoopy decorativo izquierdo" width="70">
+    <h1 class="main-title" style="margin: 0;"> Gestión de Tareas</h1>
+    <img src="snoopy2.png" alt="Snoopy decorativo derecho" width="90">
+  </div>
+
+  @if (successMessage) {
+    <div style="background-color: white; color: #333; padding: 12px 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; max-width: 300px; margin: 0 auto 20px auto; font-weight: 500; border: 1px solid #eaeaea;">
+      {{ successMessage }}
+    </div>
+  }
+
+  <div style="text-align: center; margin-bottom: 30px;">
+    <button mat-raised-button class="btn-snoopy-create" (click)="openCreateDialog()">
+      <mat-icon>add</mat-icon> Crear nueva tarea
+    </button>
+  </div>
+
+  <div class="kanban-container" cdkDropListGroup>
+    <div class="column">
+      <div class="column-header todo">
+        <img src="snoopy3.png" alt="Snoopy pendientes" width="55" style="margin-right: 8px;">
+        <mat-icon>assignment</mat-icon>
+        <h2>Pendientes</h2>
+      </div>
+
+      <div
+        cdkDropList
+        #todoList="cdkDropList"
+        [cdkDropListData]="todo"
+        [cdkDropListConnectedTo]="[doneList]"
+        class="list-container"
+        (cdkDropListDropped)="drop($event)">
+        
+        @for (item of todo; track item.id) {
+          <mat-card cdkDrag class="task-card">
+            <mat-card-header>
+              <mat-card-title>{{item.title}}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p>{{item.description}}</p>
+            </mat-card-content>
+            <div class="custom-placeholder" *cdkDragPlaceholder></div>
+          </mat-card>
+        } @empty {
+          <div class="empty-label" style="text-align: center;">
+            <img src="snoopy4.png" alt="Snoopy sin tareas" width="90" style="margin-bottom: 10px;"><br>
+            No hay tareas pendientes
+          </div>
+        }
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="column-header done">
+        <img src="snoopy5.png" alt="Snoopy completadas" width="45" style="margin-right: 8px;">
+        <mat-icon>check_circle</mat-icon>
+        <h2>Completadas</h2>
+      </div>
+
+      <div
+        cdkDropList
+        #doneList="cdkDropList"
+        [cdkDropListData]="done"
+        [cdkDropListConnectedTo]="[todoList]"
+        class="list-container"
+        (cdkDropListDropped)="drop($event)">
+        
+        @for (item of done; track item.id) {
+          <mat-card cdkDrag class="task-card completed">
+            <mat-card-header>
+              <mat-card-title>{{item.title}}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p>{{item.description}}</p>
+            </mat-card-content>
+          </mat-card>
+        } @empty {
+          <div class="empty-label" style="text-align: center;">
+             <img src="snoopy6.png" alt="Snoopy esperando" width="90" style="margin-bottom: 10px;"><br>
+            Arrastra aquí para completar
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+
+  <ng-template #createTaskDialog>
+    <h2 mat-dialog-title class="dialog-title">Añadir Tarea</h2>
+    <p></p>
+    
+    <mat-dialog-content>
+      <mat-form-field appearance="outline" class="dialog-field">
+      
+        <mat-label>Título de la tarea</mat-label>
+        <input matInput [(ngModel)]="newTask.title" name="title" required #titleCtrl="ngModel" placeholder="Ej. Darle de cenar a Snoopy">
+        
+        @if (titleCtrl.invalid && (titleCtrl.dirty || titleCtrl.touched)) {
+          <mat-error>El título es <strong>obligatorio</strong></mat-error>
+        }
+      </mat-form-field>
+      
+      <mat-form-field appearance="outline" class="dialog-field">
+        <mat-label>Descripción</mat-label>
+        <textarea matInput [(ngModel)]="newTask.description" name="description" required #descCtrl="ngModel" placeholder="Ej. Comprar croquetas y servir a las 8PM..."></textarea>
+        
+        @if (descCtrl.invalid && (descCtrl.dirty || descCtrl.touched)) {
+          <mat-error>La descripción es <strong>obligatoria</strong></mat-error>
+        }
+      </mat-form-field>
+    </mat-dialog-content>
+
+    <mat-dialog-actions align="end" class="dialog-actions">
+      <button mat-button (click)="closeDialog()" class="btn-snoopy-cancel">Cancelar</button>
+      <button mat-raised-button (click)="addTask()" [disabled]="titleCtrl.invalid || descCtrl.invalid" class="btn-snoopy-save">Agregar</button>
+    </mat-dialog-actions>
+  </ng-template>
+
+</div>
