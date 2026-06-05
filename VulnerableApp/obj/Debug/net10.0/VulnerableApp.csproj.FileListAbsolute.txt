@@ -223,3 +223,4 @@ C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\refint\Vu
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\VulnerableApp.pdb
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\VulnerableApp.genruntimeconfig.cache
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\ref\VulnerableApp.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\BCrypt-Net-Next.dll
