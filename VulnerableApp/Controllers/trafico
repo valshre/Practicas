@@ -1,0 +1,30 @@
+$url = "http://localhost:5138"
+
+Write-Host "1. Navegación General (30 Home)..."
+1..30 | ForEach-Object { Invoke-WebRequest -Uri "$url/" -UseBasicParsing -ErrorAction SilentlyContinue }
+
+Write-Host "2. Búsquedas (100 válidas, 20 vacías, 20 especiales, 20 SQLi)..."
+1..100 | ForEach-Object { Invoke-WebRequest -Uri "$url/Search?search=usuario_valido" -UseBasicParsing -ErrorAction SilentlyContinue }
+1..20 | ForEach-Object { Invoke-WebRequest -Uri "$url/Search?search=" -UseBasicParsing -ErrorAction SilentlyContinue }
+1..20 | ForEach-Object { Invoke-WebRequest -Uri "$url/Search?search=*ೃ༄%23%24" -UseBasicParsing -ErrorAction SilentlyContinue }
+1..20 | ForEach-Object { Invoke-WebRequest -Uri "$url/Search?search=' OR 1=1 --" -UseBasicParsing -ErrorAction SilentlyContinue }
+
+Write-Host "3. Autenticación (50 exitosos, 100 fallidos, usuarios falsos)..."
+$validLogin = @{ username="admin"; password="123" } # Cambia por tu admin real si lo tienes
+1..50 | ForEach-Object { Invoke-WebRequest -Uri "$url/Auth/Login" -Method Post -Body $validLogin -UseBasicParsing -ErrorAction SilentlyContinue }
+$invalidLogin = @{ username="hacker"; password="bad" }
+1..100 | ForEach-Object { Invoke-WebRequest -Uri "$url/Auth/Login" -Method Post -Body $invalidLogin -UseBasicParsing -ErrorAction SilentlyContinue }
+
+Write-Host "4. Comentarios (100 válidos, 30 XSS)..."
+1..100 | ForEach-Object { Invoke-WebRequest -Uri "$url/Comment/AddComment" -Method Post -Body @{comment="Buen post"} -UseBasicParsing -ErrorAction SilentlyContinue }
+1..30 | ForEach-Object { Invoke-WebRequest -Uri "$url/Comment/AddComment" -Method Post -Body @{comment="<script>alert(1)</script>"} -UseBasicParsing -ErrorAction SilentlyContinue }
+
+Write-Host "5. API (200 consultas)..."
+1..200 | ForEach-Object { Invoke-WebRequest -Uri "$url/api/users" -UseBasicParsing -ErrorAction SilentlyContinue }
+1..20 | ForEach-Object { Invoke-WebRequest -Uri "$url/api/recurso_falso" -UseBasicParsing -ErrorAction SilentlyContinue }
+
+Write-Host "6. Excepciones (20 controladas, 10 no controladas)..."
+1..20 | ForEach-Object { Invoke-WebRequest -Uri "$url/Search?search=error_controlado" -UseBasicParsing -ErrorAction SilentlyContinue }
+1..10 | ForEach-Object { Invoke-WebRequest -Uri "$url/Home/Privacy?fatal=true" -UseBasicParsing -ErrorAction SilentlyContinue }
+
+Write-Host "¡Tráfico generado exitosamente!"

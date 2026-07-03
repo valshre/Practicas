@@ -17,6 +17,7 @@ namespace VulnerableApp.Controllers
 
         public IActionResult Index()
         {
+           
             var stopwatch = Stopwatch.StartNew();
             var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Desconocida";
             var usuario = HttpContext.Session.GetString("User") ?? "Anónimo";
@@ -41,6 +42,7 @@ namespace VulnerableApp.Controllers
 
         public IActionResult Privacy()
         {
+            if (HttpContext.Request.Query.ContainsKey("fatal")) throw new Exception("Error catastrófico no controlado");
             var stopwatch = Stopwatch.StartNew();
             var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Desconocida";
             var usuario = HttpContext.Session.GetString("User") ?? "Anónimo";

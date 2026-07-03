@@ -32,7 +32,7 @@ namespace VulnerableApp.Controllers
 
             try
             {
-               
+               if (search == "error_controlado") throw new Exception("Excepción controlada de prueba");
                 if (string.IsNullOrEmpty(search))
                 {
                     return View(new List<User>());
