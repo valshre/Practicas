@@ -1,0 +1,22 @@
+2026-07-02 11:32:04.727 -06:00 [INF] User profile is available. Using 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 11:32:05.250 -06:00 [INF] Now listening on: http://localhost:5138
+2026-07-02 11:32:05.271 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 11:32:05.275 -06:00 [INF] Hosting environment: Development
+2026-07-02 11:32:05.278 -06:00 [INF] Content root path: C:\Users\valec\OneDrive\Documentos\git\VulnerableApp
+2026-07-02 11:46:47.032 -06:00 [INF] Application is shutting down...
+2026-07-02 11:47:02.220 -06:00 [INF] Now listening on: http://localhost:5138
+2026-07-02 11:47:02.323 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 11:47:02.325 -06:00 [INF] Hosting environment: Development
+2026-07-02 11:47:02.327 -06:00 [INF] Content root path: C:\Users\valec\OneDrive\Documentos\git\VulnerableApp
+2026-07-02 11:47:14.227 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-02 11:48:35.079 -06:00 [INF] Entrando a search.index
+2026-07-02 11:48:35.090 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/search
+2026-07-02 11:48:38.946 -06:00 [INF] Entrando a search.index
+2026-07-02 11:48:38.948 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/search
+2026-07-02 11:48:40.121 -06:00 [INF] Entrando a search.index
+2026-07-02 11:48:40.126 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/search
+2026-07-02 11:48:41.216 -06:00 [INF] Entrando a search.index
+2026-07-02 11:48:41.219 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/search
+2026-07-02 11:48:51.349 -06:00 [INF] Entrando a search.index
+2026-07-02 11:48:51.352 -06:00 [INF] Usuario:Anónimo IP:::1 Ruta:/search
+2026-07-02 11:53:52.466 -06:00 [INF] Application is shutting down...
