@@ -224,3 +224,14 @@ C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\Vulnerabl
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\VulnerableApp.genruntimeconfig.cache
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\ref\VulnerableApp.dll
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Sinks.Seq.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Enrichers.Environment.dll

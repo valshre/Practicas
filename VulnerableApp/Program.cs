@@ -1,7 +1,22 @@
 using Microsoft.EntityFrameworkCore;
 using VulnerableApp.Data;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using Serilog; 
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration) 
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.Seq("http://localhost:5341")
+    .Enrich.FromLogContext()
+    .Enrich.WithMachineName() // (enriquecedor)
+    .CreateLogger();
+
+
+builder.Host.UseSerilog();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -32,5 +47,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
+    
 app.UseSession();
+
 await app.RunAsync();
