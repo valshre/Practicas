@@ -1,0 +1,1212 @@
+2026-07-11 21:10:13.524 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-07-11 21:10:14.498 -06:00 [DBG] Hosting starting
+2026-07-11 21:10:14.797 -06:00 [INF] User profile is available. Using 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-11 21:10:14.840 -06:00 [DBG] Reading data from file 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys\key-7fcc6b80-5b07-4876-9878-88305cf10417.xml'.
+2026-07-11 21:10:14.903 -06:00 [DBG] Found key {7fcc6b80-5b07-4876-9878-88305cf10417}.
+2026-07-11 21:10:14.978 -06:00 [DBG] Considering key {7fcc6b80-5b07-4876-9878-88305cf10417} with expiration date 2026-08-31 01:35:10Z as default key.
+2026-07-11 21:10:15.121 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-11 21:10:15.164 -06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-07-11 21:10:15.188 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-11 21:10:15.198 -06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-07-11 21:10:15.202 -06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-07-11 21:10:15.226 -06:00 [DBG] Using key {7fcc6b80-5b07-4876-9878-88305cf10417} as the default key.
+2026-07-11 21:10:15.256 -06:00 [DBG] Key ring with default key {7fcc6b80-5b07-4876-9878-88305cf10417} was loaded during application startup.
+2026-07-11 21:10:15.486 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-07-11 21:10:15.992 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-07-11 21:10:16.078 -06:00 [INF] Now listening on: http://localhost:5138
+2026-07-11 21:10:16.104 -06:00 [DBG] Loaded hosting startup assembly VulnerableApp
+2026-07-11 21:10:16.108 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-11 21:10:16.110 -06:00 [INF] Hosting environment: Development
+2026-07-11 21:10:16.122 -06:00 [INF] Content root path: C:\Users\valec\OneDrive\Documentos\git\VulnerableApp
+2026-07-11 21:10:16.140 -06:00 [DBG] Hosting started
+2026-07-11 21:19:18.805 -06:00 [INF] Application is shutting down...
+2026-07-11 21:19:18.807 -06:00 [DBG] Hosting stopping
+2026-07-11 21:19:18.829 -06:00 [DBG] Hosting stopped
+2026-07-11 21:47:11.520 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-07-11 21:47:11.934 -06:00 [DBG] Hosting starting
+2026-07-11 21:47:12.033 -06:00 [INF] User profile is available. Using 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-11 21:47:12.068 -06:00 [DBG] Reading data from file 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys\key-7fcc6b80-5b07-4876-9878-88305cf10417.xml'.
+2026-07-11 21:47:12.096 -06:00 [DBG] Found key {7fcc6b80-5b07-4876-9878-88305cf10417}.
+2026-07-11 21:47:12.150 -06:00 [DBG] Considering key {7fcc6b80-5b07-4876-9878-88305cf10417} with expiration date 2026-08-31 01:35:10Z as default key.
+2026-07-11 21:47:12.164 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-11 21:47:12.184 -06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-07-11 21:47:12.198 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-11 21:47:12.210 -06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-07-11 21:47:12.214 -06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-07-11 21:47:12.220 -06:00 [DBG] Using key {7fcc6b80-5b07-4876-9878-88305cf10417} as the default key.
+2026-07-11 21:47:12.223 -06:00 [DBG] Key ring with default key {7fcc6b80-5b07-4876-9878-88305cf10417} was loaded during application startup.
+2026-07-11 21:47:12.336 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-07-11 21:47:12.342 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-07-11 21:47:12.393 -06:00 [INF] Now listening on: http://localhost:5138
+2026-07-11 21:47:12.400 -06:00 [DBG] Loaded hosting startup assembly VulnerableApp
+2026-07-11 21:47:12.406 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-11 21:47:12.408 -06:00 [INF] Hosting environment: Development
+2026-07-11 21:47:12.411 -06:00 [INF] Content root path: C:\Users\valec\OneDrive\Documentos\git\VulnerableApp
+2026-07-11 21:47:12.420 -06:00 [DBG] Hosting started
+2026-07-11 21:47:39.207 -06:00 [DBG] Connection id "0HNMVP18SQDOK" accepted.
+2026-07-11 21:47:39.214 -06:00 [DBG] Connection id "0HNMVP18SQDOK" started.
+2026-07-11 21:47:39.215 -06:00 [DBG] Connection id "0HNMVP18SQDOL" accepted.
+2026-07-11 21:47:39.222 -06:00 [DBG] Connection id "0HNMVP18SQDOL" started.
+2026-07-11 21:47:39.946 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/ - null null
+2026-07-11 21:47:39.970 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-11 21:47:40.075 -06:00 [DBG] 2 candidate(s) found for the request path '/'
+2026-07-11 21:47:40.083 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2026-07-11 21:47:40.091 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'null' for the request path '/'
+2026-07-11 21:47:40.101 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/'
+2026-07-11 21:47:40.107 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-11 21:47:40.126 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-11 21:47:40.205 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-11 21:47:40.212 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:47:40.215 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:47:40.218 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:47:40.227 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:47:40.230 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:47:40.239 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.HomeController (VulnerableApp)
+2026-07-11 21:47:40.244 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.HomeController (VulnerableApp)
+2026-07-11 21:47:40.257 -06:00 [INF] Inicio HomeController.Index | Usuario: Anónimo | IP: ::1
+2026-07-11 21:47:40.261 -06:00 [INF] Fin HomeController.Index | Tiempo de ejecución: 11 ms
+2026-07-11 21:47:40.279 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Auth/Dashboard.cshtml'.
+2026-07-11 21:47:40.288 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Auth/Login.cshtml'.
+2026-07-11 21:47:40.291 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Comment/Index.cshtml'.
+2026-07-11 21:47:40.294 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2026-07-11 21:47:40.296 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2026-07-11 21:47:40.299 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Search/Index.cshtml'.
+2026-07-11 21:47:40.304 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2026-07-11 21:47:40.306 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2026-07-11 21:47:40.308 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2026-07-11 21:47:40.310 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2026-07-11 21:47:40.312 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2026-07-11 21:47:40.327 -06:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2026-07-11 21:47:40.343 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:47:40.351 -06:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 19.5045ms.
+2026-07-11 21:47:40.409 -06:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2026-07-11 21:47:40.509 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:47:40.516 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:47:40.525 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:47:40.530 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:47:40.533 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:47:40.537 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:47:40.542 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:47:40.545 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:47:40.548 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:47:40.555 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:47:40.557 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:47:40.562 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:47:40.577 -06:00 [INF] Executed ViewResult - view Index executed in 252.2927ms.
+2026-07-11 21:47:40.585 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 349.3378ms
+2026-07-11 21:47:40.595 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-11 21:47:40.609 -06:00 [INF] Solicitud: GET / | Código: 200 | Tiempo: 637 ms
+2026-07-11 21:47:40.614 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:47:40.634 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/ - 200 null text/html; charset=utf-8 692.3135ms
+2026-07-11 21:47:40.672 -06:00 [DBG] Connection id "0HNMVP18SQDOM" accepted.
+2026-07-11 21:47:40.684 -06:00 [DBG] Connection id "0HNMVP18SQDON" accepted.
+2026-07-11 21:47:40.688 -06:00 [DBG] Connection id "0HNMVP18SQDOO" accepted.
+2026-07-11 21:47:40.691 -06:00 [DBG] Connection id "0HNMVP18SQDOP" accepted.
+2026-07-11 21:47:40.696 -06:00 [DBG] Connection id "0HNMVP18SQDON" started.
+2026-07-11 21:47:40.685 -06:00 [DBG] Connection id "0HNMVP18SQDOM" started.
+2026-07-11 21:47:40.703 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:47:40.679 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:47:40.697 -06:00 [DBG] Connection id "0HNMVP18SQDOO" started.
+2026-07-11 21:47:40.700 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:47:40.692 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:47:40.728 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:47:40.729 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:47:40.730 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:47:40.734 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:47:40.746 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:47:40.783 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:47:40.767 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:47:40.769 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:47:40.805 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:47:40.752 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:47:40.816 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:47:40.797 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:47:40.778 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:47:40.811 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:47:40.793 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:47:40.826 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:47:40.831 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:47:40.838 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:47:40.847 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:47:40.853 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:47:40.863 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:47:40.870 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:47:40.876 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:47:40.910 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:47:40.888 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:47:40.892 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:40.905 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:47:40.943 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:40.914 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:40.923 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:40.883 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:40.968 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:47:40.992 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:41.006 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 239 ms
+2026-07-11 21:47:40.986 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:47:41.022 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:41.013 -06:00 [DBG] Connection id "0HNMVP18SQDOO" completed keep alive response.
+2026-07-11 21:47:41.012 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:47:41.047 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:41.034 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 317 ms
+2026-07-11 21:47:41.036 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 306.8685ms
+2026-07-11 21:47:41.053 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 333 ms
+2026-07-11 21:47:41.077 -06:00 [DBG] Connection id "0HNMVP18SQDOL" completed keep alive response.
+2026-07-11 21:47:41.083 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 404.0022ms
+2026-07-11 21:47:41.060 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:47:41.113 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 409.6529ms
+2026-07-11 21:47:41.116 -06:00 [DBG] Connection id "0HNMVP18SQDOP" started.
+2026-07-11 21:47:41.153 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:47:41.168 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:47:41.172 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:41.194 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 455 ms
+2026-07-11 21:47:41.214 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:47:41.217 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 525.0622ms
+2026-07-11 21:47:41.221 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:47:41.235 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:47:41.240 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:47:41.249 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:47:41.254 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:47:41.258 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:41.503 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:47:41.534 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:41.538 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 345 ms
+2026-07-11 21:47:41.556 -06:00 [DBG] Connection id "0HNMVP18SQDOP" completed keep alive response.
+2026-07-11 21:47:41.572 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 408.1829ms
+2026-07-11 21:47:41.594 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:47:41.604 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:47:41.611 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 877 ms
+2026-07-11 21:47:41.615 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:47:41.619 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 918.7276ms
+2026-07-11 21:48:26.867 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/search - null null
+2026-07-11 21:48:26.873 -06:00 [DBG] 2 candidate(s) found for the request path '/search'
+2026-07-11 21:48:26.879 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/search'
+2026-07-11 21:48:26.891 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'search' for the request path '/search'
+2026-07-11 21:48:26.901 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/search'
+2026-07-11 21:48:26.917 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-11 21:48:26.924 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-11 21:48:26.945 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-11 21:48:26.950 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:26.955 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:26.960 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:26.966 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:26.973 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:26.978 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.SearchController (VulnerableApp)
+2026-07-11 21:48:27.261 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-07-11 21:48:27.299 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.SearchController (VulnerableApp)
+2026-07-11 21:48:27.308 -06:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2026-07-11 21:48:27.315 -06:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2026-07-11 21:48:27.318 -06:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2026-07-11 21:48:27.321 -06:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2026-07-11 21:48:27.323 -06:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2026-07-11 21:48:27.326 -06:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2026-07-11 21:48:27.341 -06:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2026-07-11 21:48:27.353 -06:00 [INF] Inicio SearchController.Index | Usuario: Anónimo | IP: ::1 | Término Búsqueda: null
+2026-07-11 21:48:27.357 -06:00 [INF] Fin SearchController.Index | Tiempo de ejecución: 4 ms
+2026-07-11 21:48:27.362 -06:00 [DBG] View lookup cache miss for view 'Index' in controller 'Search'.
+2026-07-11 21:48:27.365 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:48:27.367 -06:00 [DBG] The view path '/Views/Search/Index.cshtml' was found in 5.231ms.
+2026-07-11 21:48:27.387 -06:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Search'.
+2026-07-11 21:48:27.394 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:27.397 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:27.400 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:27.404 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:27.407 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:27.411 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:27.414 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:27.417 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:27.422 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:27.428 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:27.433 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:27.438 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:27.442 -06:00 [INF] Executed ViewResult - view Index executed in 80.6346ms.
+2026-07-11 21:48:27.445 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 466.8943ms
+2026-07-11 21:48:27.448 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-11 21:48:27.463 -06:00 [INF] Solicitud: GET /search | Código: 200 | Tiempo: 589 ms
+2026-07-11 21:48:27.468 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:27.478 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/search - 200 null text/html; charset=utf-8 611.303ms
+2026-07-11 21:48:27.499 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:48:27.504 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:27.509 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:48:27.511 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:48:27.515 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:48:27.517 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:27.529 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:48:27.560 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:27.563 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:27.568 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:48:27.572 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:27.538 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:27.586 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:27.596 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:27.583 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.558 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:27.575 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:27.602 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:27.615 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:48:27.620 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:27.625 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:27.630 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:27.651 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.645 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:27.649 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:27.636 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.660 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:48:27.661 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.665 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:27.685 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:27.669 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.667 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 140 ms
+2026-07-11 21:48:27.687 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:48:27.693 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.696 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 157 ms
+2026-07-11 21:48:27.701 -06:00 [DBG] Connection id "0HNMVP18SQDOP" completed keep alive response.
+2026-07-11 21:48:27.715 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:48:27.716 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:48:27.720 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 210.4572ms
+2026-07-11 21:48:27.728 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 217.2973ms
+2026-07-11 21:48:27.728 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:48:27.759 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:27.762 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:27.741 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:48:27.773 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.775 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 231 ms
+2026-07-11 21:48:27.754 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:48:27.790 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.784 -06:00 [DBG] Connection id "0HNMVP18SQDOL" completed keep alive response.
+2026-07-11 21:48:27.768 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:48:27.802 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 286.5462ms
+2026-07-11 21:48:27.803 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 296 ms
+2026-07-11 21:48:27.806 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:27.821 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:27.824 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.828 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 329.2002ms
+2026-07-11 21:48:27.833 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:48:27.845 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.847 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 121 ms
+2026-07-11 21:48:27.851 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:48:27.855 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 139.9275ms
+2026-07-11 21:48:27.874 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:27.876 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:27.880 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:27.885 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:27.892 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:27.894 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.900 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:48:27.920 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:27.924 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 215 ms
+2026-07-11 21:48:27.946 -06:00 [DBG] Connection id "0HNMVP18SQDOO" completed keep alive response.
+2026-07-11 21:48:27.956 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 269.7239ms
+2026-07-11 21:48:32.800 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/comment/index - null null
+2026-07-11 21:48:32.806 -06:00 [DBG] 2 candidate(s) found for the request path '/comment/index'
+2026-07-11 21:48:32.808 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/comment/index'
+2026-07-11 21:48:32.822 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'comment/index' for the request path '/comment/index'
+2026-07-11 21:48:32.831 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/comment/index'
+2026-07-11 21:48:32.841 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:32.847 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:32.852 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:48:32.861 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:32.865 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:32.872 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:32.878 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:32.882 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:32.887 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:32.891 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:32.894 -06:00 [INF] Inicio CommentController.Index | Usuario: Anónimo | IP: ::1
+2026-07-11 21:48:32.899 -06:00 [INF] Fin CommentController.Index | Tiempo de ejecución: 5 ms
+2026-07-11 21:48:32.905 -06:00 [DBG] View lookup cache miss for view 'Index' in controller 'Comment'.
+2026-07-11 21:48:32.909 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:48:32.910 -06:00 [DBG] The view path '/Views/Comment/Index.cshtml' was found in 5.901ms.
+2026-07-11 21:48:32.932 -06:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Comment'.
+2026-07-11 21:48:32.939 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:32.945 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:32.949 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:32.952 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:32.956 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:32.964 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:32.968 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:32.973 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:32.980 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:32.984 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:32.988 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:32.993 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:32.999 -06:00 [INF] Executed ViewResult - view Index executed in 95.2635ms.
+2026-07-11 21:48:33.001 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 114.4944ms
+2026-07-11 21:48:33.007 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:33.022 -06:00 [INF] Solicitud: GET /comment/index | Código: 200 | Tiempo: 216 ms
+2026-07-11 21:48:33.028 -06:00 [DBG] Connection id "0HNMVP18SQDOO" completed keep alive response.
+2026-07-11 21:48:33.034 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/comment/index - 200 null text/html; charset=utf-8 234.0517ms
+2026-07-11 21:48:33.070 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:48:33.085 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:48:33.086 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:48:33.086 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:48:33.087 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:48:33.089 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:48:33.092 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:33.141 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:33.145 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:33.123 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:33.166 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:33.138 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:48:33.110 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:48:33.118 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:33.162 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:33.127 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:33.170 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:33.176 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:33.205 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:33.209 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:48:33.189 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:33.191 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:33.201 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:33.181 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:33.237 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:33.215 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:33.220 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.225 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:33.257 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:33.279 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:33.245 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:48:33.247 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.233 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:33.270 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:48:33.184 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:33.281 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.295 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:33.301 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:48:33.302 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.309 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.315 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:33.329 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:48:33.329 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.335 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.343 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 250 ms
+2026-07-11 21:48:33.343 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:48:33.347 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:33.354 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.359 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:48:33.360 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 224 ms
+2026-07-11 21:48:33.394 -06:00 [DBG] Connection id "0HNMVP18SQDOP" completed keep alive response.
+2026-07-11 21:48:33.373 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.379 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:33.384 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 257 ms
+2026-07-11 21:48:33.389 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.412 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 301 ms
+2026-07-11 21:48:33.400 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 310.9227ms
+2026-07-11 21:48:33.403 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 280 ms
+2026-07-11 21:48:33.406 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.409 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:48:33.365 -06:00 [DBG] Connection id "0HNMVP18SQDOO" completed keep alive response.
+2026-07-11 21:48:33.420 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:48:33.450 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 364.7629ms
+2026-07-11 21:48:33.440 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:48:33.442 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 354.2218ms
+2026-07-11 21:48:33.447 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 377.3815ms
+2026-07-11 21:48:33.435 -06:00 [DBG] Connection id "0HNMVP18SQDOL" completed keep alive response.
+2026-07-11 21:48:33.465 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:33.519 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 401 ms
+2026-07-11 21:48:33.522 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:33.535 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 445.5454ms
+2026-07-11 21:48:33.523 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 436.4078ms
+2026-07-11 21:48:38.179 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5138/Comment/AddComment - application/x-www-form-urlencoded 25
+2026-07-11 21:48:38.186 -06:00 [DBG] 1 candidate(s) found for the request path '/Comment/AddComment'
+2026-07-11 21:48:38.188 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment/AddComment'
+2026-07-11 21:48:38.193 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:38.196 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:38.203 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:48:38.211 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:38.223 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:38.231 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:38.240 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:38.244 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:38.252 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:38.255 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:38.269 -06:00 [DBG] Connection id "0HNMVP18SQDON", Request id "0HNMVP18SQDON:00000005": started reading request body.
+2026-07-11 21:48:38.271 -06:00 [DBG] Connection id "0HNMVP18SQDON", Request id "0HNMVP18SQDON:00000005": done reading request body.
+2026-07-11 21:48:38.282 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' ...
+2026-07-11 21:48:38.288 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' using the name 'comment' in request data ...
+2026-07-11 21:48:38.292 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:38.294 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:38.300 -06:00 [DBG] Attempting to validate the bound parameter 'comment' of type 'System.String' ...
+2026-07-11 21:48:38.306 -06:00 [DBG] Done attempting to validate the bound parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:38.309 -06:00 [INF] Inicio CommentController.AddComment | Usuario: Anónimo | IP: ::1 | Comentario: Hola comentario 1
+2026-07-11 21:48:38.314 -06:00 [INF] Fin CommentController.AddComment | Tiempo de ejecución: 5 ms
+2026-07-11 21:48:38.317 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Comment])
+2026-07-11 21:48:38.322 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Comment and 
+2026-07-11 21:48:38.326 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Comment
+2026-07-11 21:48:38.333 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-11 21:48:38.336 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 84.1782ms
+2026-07-11 21:48:38.338 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:38.341 -06:00 [INF] Solicitud: POST /Comment/AddComment | Código: 302 | Tiempo: 156 ms
+2026-07-11 21:48:38.347 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:38.350 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5138/Comment/AddComment - 302 0 null 170.7168ms
+2026-07-11 21:48:38.360 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/Comment - null null
+2026-07-11 21:48:38.365 -06:00 [DBG] 2 candidate(s) found for the request path '/Comment'
+2026-07-11 21:48:38.368 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment'
+2026-07-11 21:48:38.371 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'Comment' for the request path '/Comment'
+2026-07-11 21:48:38.380 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/Comment'
+2026-07-11 21:48:38.384 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:38.386 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:38.389 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:48:38.396 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:38.400 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:38.404 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:38.412 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:38.415 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:38.420 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:38.425 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:38.428 -06:00 [INF] Inicio CommentController.Index | Usuario: Anónimo | IP: ::1
+2026-07-11 21:48:38.431 -06:00 [INF] Fin CommentController.Index | Tiempo de ejecución: 2 ms
+2026-07-11 21:48:38.433 -06:00 [DBG] View lookup cache hit for view 'Index' in controller 'Comment'.
+2026-07-11 21:48:38.437 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:48:38.441 -06:00 [DBG] The view path '/Views/Comment/Index.cshtml' was found in 8.2097ms.
+2026-07-11 21:48:38.447 -06:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Comment'.
+2026-07-11 21:48:38.450 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:38.455 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:38.462 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:38.465 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:38.470 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:38.475 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:38.478 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:38.488 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:38.492 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:38.496 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:38.505 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:38.509 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:38.514 -06:00 [INF] Executed ViewResult - view Index executed in 80.6763ms.
+2026-07-11 21:48:38.541 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 120.3747ms
+2026-07-11 21:48:38.546 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:38.574 -06:00 [INF] Solicitud: GET /Comment | Código: 200 | Tiempo: 208 ms
+2026-07-11 21:48:38.578 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:48:38.602 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:38.607 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:38.636 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/Comment - 200 null text/html; charset=utf-8 276.757ms
+2026-07-11 21:48:38.619 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:48:38.612 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:48:38.637 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:38.669 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:38.651 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:38.679 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:38.646 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:48:38.676 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:38.664 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:38.691 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:38.699 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:48:38.708 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:38.711 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:38.719 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:38.741 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:38.728 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.736 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:38.724 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:38.745 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.758 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:48:38.758 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:38.762 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:38.773 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:48:38.798 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:48:38.785 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:38.790 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:48:38.777 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:38.800 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:38.804 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.810 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:38.814 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:38.818 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:38.823 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:48:38.825 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.834 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:38.838 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:48:38.845 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.849 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:48:38.852 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:38.855 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:38.860 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 195 ms
+2026-07-11 21:48:38.864 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.868 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:38.870 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.875 -06:00 [DBG] Connection id "0HNMVP18SQDOL" completed keep alive response.
+2026-07-11 21:48:38.878 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 179 ms
+2026-07-11 21:48:38.881 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.886 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:48:38.902 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.895 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:38.900 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:48:38.891 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 278.6574ms
+2026-07-11 21:48:38.911 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 112 ms
+2026-07-11 21:48:38.921 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 274.8483ms
+2026-07-11 21:48:38.959 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:48:38.934 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:48:38.970 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.973 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 321 ms
+2026-07-11 21:48:38.978 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:48:38.940 -06:00 [DBG] Connection id "0HNMVP18SQDOO" completed keep alive response.
+2026-07-11 21:48:38.926 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:38.991 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 384 ms
+2026-07-11 21:48:38.994 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:48:39.001 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 422.2653ms
+2026-07-11 21:48:38.991 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 215.464ms
+2026-07-11 21:48:38.965 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:39.032 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 255 ms
+2026-07-11 21:48:38.991 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 366.875ms
+2026-07-11 21:48:39.040 -06:00 [DBG] Connection id "0HNMVP18SQDOP" completed keep alive response.
+2026-07-11 21:48:39.055 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 297.8065ms
+2026-07-11 21:48:43.747 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5138/Comment/AddComment - application/x-www-form-urlencoded 22
+2026-07-11 21:48:43.754 -06:00 [DBG] 1 candidate(s) found for the request path '/Comment/AddComment'
+2026-07-11 21:48:43.757 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment/AddComment'
+2026-07-11 21:48:43.769 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:43.772 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:43.782 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:48:43.795 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:43.800 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:43.805 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:43.815 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:43.832 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:43.838 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:43.870 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:43.875 -06:00 [DBG] Connection id "0HNMVP18SQDOM", Request id "0HNMVP18SQDOM:00000005": started reading request body.
+2026-07-11 21:48:43.889 -06:00 [DBG] Connection id "0HNMVP18SQDOM", Request id "0HNMVP18SQDOM:00000005": done reading request body.
+2026-07-11 21:48:43.894 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' ...
+2026-07-11 21:48:43.897 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' using the name 'comment' in request data ...
+2026-07-11 21:48:43.903 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:43.907 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:43.910 -06:00 [DBG] Attempting to validate the bound parameter 'comment' of type 'System.String' ...
+2026-07-11 21:48:43.913 -06:00 [DBG] Done attempting to validate the bound parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:43.918 -06:00 [INF] Inicio CommentController.AddComment | Usuario: Anónimo | IP: ::1 | Comentario: Uhh registro 2
+2026-07-11 21:48:43.921 -06:00 [INF] Fin CommentController.AddComment | Tiempo de ejecución: 2 ms
+2026-07-11 21:48:43.923 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Comment])
+2026-07-11 21:48:43.927 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Comment and 
+2026-07-11 21:48:43.931 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Comment
+2026-07-11 21:48:43.937 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-11 21:48:43.941 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 102.6517ms
+2026-07-11 21:48:43.943 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:43.947 -06:00 [INF] Solicitud: POST /Comment/AddComment | Código: 302 | Tiempo: 192 ms
+2026-07-11 21:48:43.952 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:48:43.955 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5138/Comment/AddComment - 302 0 null 207.7242ms
+2026-07-11 21:48:43.962 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/Comment - null null
+2026-07-11 21:48:43.969 -06:00 [DBG] 2 candidate(s) found for the request path '/Comment'
+2026-07-11 21:48:43.971 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment'
+2026-07-11 21:48:43.975 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'Comment' for the request path '/Comment'
+2026-07-11 21:48:43.983 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/Comment'
+2026-07-11 21:48:43.989 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:43.991 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:43.993 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:48:44.001 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:44.003 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:44.008 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:44.013 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:44.016 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:44.020 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:44.022 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:44.025 -06:00 [INF] Inicio CommentController.Index | Usuario: Anónimo | IP: ::1
+2026-07-11 21:48:44.030 -06:00 [INF] Fin CommentController.Index | Tiempo de ejecución: 5 ms
+2026-07-11 21:48:44.033 -06:00 [DBG] View lookup cache hit for view 'Index' in controller 'Comment'.
+2026-07-11 21:48:44.036 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:48:44.038 -06:00 [DBG] The view path '/Views/Comment/Index.cshtml' was found in 4.8242ms.
+2026-07-11 21:48:44.042 -06:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Comment'.
+2026-07-11 21:48:44.049 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:44.053 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:44.057 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:44.062 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:44.067 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:44.071 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:44.076 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:44.080 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:44.083 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:44.087 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:44.095 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:44.099 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:44.106 -06:00 [INF] Executed ViewResult - view Index executed in 73.0472ms.
+2026-07-11 21:48:44.115 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 95.0854ms
+2026-07-11 21:48:44.124 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:44.128 -06:00 [INF] Solicitud: GET /Comment | Código: 200 | Tiempo: 158 ms
+2026-07-11 21:48:44.132 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:48:44.134 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/Comment - 200 null text/html; charset=utf-8 172.6442ms
+2026-07-11 21:48:44.203 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:48:44.217 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:48:44.218 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:48:44.218 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:48:44.218 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:48:44.219 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:48:44.221 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:44.270 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:44.273 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:44.250 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:44.285 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:44.295 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:44.237 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:48:44.243 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:44.281 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:44.258 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:44.264 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:48:44.300 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:44.334 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:44.312 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:44.317 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:44.320 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:44.323 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:44.303 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:44.337 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.344 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:44.351 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.353 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:44.364 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:44.367 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:44.380 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:48:44.380 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:44.394 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:44.395 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:48:44.398 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:48:44.402 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:48:44.408 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.506 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 255 ms
+2026-07-11 21:48:44.455 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:44.459 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.499 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:44.503 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:44.413 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:44.515 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:44.520 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.522 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 301 ms
+2026-07-11 21:48:44.525 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.532 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.535 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.537 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 319.0391ms
+2026-07-11 21:48:44.543 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:48:44.588 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.562 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:48:44.601 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.609 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 345 ms
+2026-07-11 21:48:44.634 -06:00 [DBG] Connection id "0HNMVP18SQDOO" completed keep alive response.
+2026-07-11 21:48:44.645 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 426.2574ms
+2026-07-11 21:48:44.565 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:48:44.569 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:48:44.665 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.595 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 337 ms
+2026-07-11 21:48:44.661 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:44.557 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:48:44.671 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 427 ms
+2026-07-11 21:48:44.674 -06:00 [DBG] Connection id "0HNMVP18SQDOL" completed keep alive response.
+2026-07-11 21:48:44.679 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 441 ms
+2026-07-11 21:48:44.682 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 479.4148ms
+2026-07-11 21:48:44.692 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:48:44.695 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 476.1489ms
+2026-07-11 21:48:44.701 -06:00 [DBG] Connection id "0HNMVP18SQDOP" completed keep alive response.
+2026-07-11 21:48:44.716 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 497.8949ms
+2026-07-11 21:48:44.727 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 509.4917ms
+2026-07-11 21:48:49.220 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5138/Comment/AddComment - application/x-www-form-urlencoded 24
+2026-07-11 21:48:49.227 -06:00 [DBG] 1 candidate(s) found for the request path '/Comment/AddComment'
+2026-07-11 21:48:49.235 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment/AddComment'
+2026-07-11 21:48:49.243 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:49.247 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:49.253 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:48:49.260 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:49.266 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:49.274 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:49.283 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:49.286 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:49.292 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:49.296 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:49.299 -06:00 [DBG] Connection id "0HNMVP18SQDOK", Request id "0HNMVP18SQDOK:00000007": started reading request body.
+2026-07-11 21:48:49.302 -06:00 [DBG] Connection id "0HNMVP18SQDOK", Request id "0HNMVP18SQDOK:00000007": done reading request body.
+2026-07-11 21:48:49.304 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' ...
+2026-07-11 21:48:49.307 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' using the name 'comment' in request data ...
+2026-07-11 21:48:49.312 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:49.316 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:49.318 -06:00 [DBG] Attempting to validate the bound parameter 'comment' of type 'System.String' ...
+2026-07-11 21:48:49.321 -06:00 [DBG] Done attempting to validate the bound parameter 'comment' of type 'System.String'.
+2026-07-11 21:48:49.324 -06:00 [INF] Inicio CommentController.AddComment | Usuario: Anónimo | IP: ::1 | Comentario: Registro 3!!
+2026-07-11 21:48:49.329 -06:00 [INF] Fin CommentController.AddComment | Tiempo de ejecución: 5 ms
+2026-07-11 21:48:49.331 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Comment])
+2026-07-11 21:48:49.335 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Comment and 
+2026-07-11 21:48:49.339 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Comment
+2026-07-11 21:48:49.346 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-11 21:48:49.349 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 56.9882ms
+2026-07-11 21:48:49.353 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:48:49.356 -06:00 [INF] Solicitud: POST /Comment/AddComment | Código: 302 | Tiempo: 129 ms
+2026-07-11 21:48:49.360 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:48:49.362 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5138/Comment/AddComment - 302 0 null 142.6584ms
+2026-07-11 21:48:49.369 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/Comment - null null
+2026-07-11 21:48:49.376 -06:00 [DBG] 2 candidate(s) found for the request path '/Comment'
+2026-07-11 21:48:49.378 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment'
+2026-07-11 21:48:49.382 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'Comment' for the request path '/Comment'
+2026-07-11 21:48:49.392 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/Comment'
+2026-07-11 21:48:49.396 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:49.400 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:49.404 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:48:49.410 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:48:49.413 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:49.417 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:48:49.423 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:48:49.426 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:48:49.430 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:49.433 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:48:49.438 -06:00 [INF] Inicio CommentController.Index | Usuario: Anónimo | IP: ::1
+2026-07-11 21:48:49.440 -06:00 [INF] Fin CommentController.Index | Tiempo de ejecución: 2 ms
+2026-07-11 21:48:49.443 -06:00 [DBG] View lookup cache hit for view 'Index' in controller 'Comment'.
+2026-07-11 21:48:49.445 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:48:49.447 -06:00 [DBG] The view path '/Views/Comment/Index.cshtml' was found in 4.6813ms.
+2026-07-11 21:48:49.454 -06:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Comment'.
+2026-07-11 21:48:49.457 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:49.460 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:49.464 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:49.470 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:48:49.474 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:48:49.478 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:48:49.483 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:49.489 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:49.493 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:49.498 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:48:49.502 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:48:49.506 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:48:49.511 -06:00 [INF] Executed ViewResult - view Index executed in 68.5055ms.
+2026-07-11 21:48:49.520 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 90.7396ms
+2026-07-11 21:48:49.535 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:48:49.538 -06:00 [INF] Solicitud: GET /Comment | Código: 200 | Tiempo: 162 ms
+2026-07-11 21:48:49.545 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:48:49.555 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/Comment - 200 null text/html; charset=utf-8 186.127ms
+2026-07-11 21:48:49.593 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:48:49.600 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:48:49.628 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:48:49.632 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:49.623 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:49.600 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:48:49.602 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:48:49.662 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:49.672 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:49.683 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:49.635 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:48:49.641 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:49.648 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:49.688 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:48:49.693 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:48:49.698 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:49.703 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:49.708 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:49.718 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:49.723 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:48:49.730 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:49.735 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.738 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.742 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:49.752 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:48:49.768 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:49.759 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:48:49.760 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.758 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:48:49.788 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:49.776 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.786 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:48:49.771 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.791 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:49.798 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 169 ms
+2026-07-11 21:48:49.804 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:48:49.807 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:48:49.814 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:49.817 -06:00 [DBG] Connection id "0HNMVP18SQDOP" completed keep alive response.
+2026-07-11 21:48:49.832 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 231.31ms
+2026-07-11 21:48:49.823 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.829 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:48:49.820 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:49.843 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:48:49.845 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 196 ms
+2026-07-11 21:48:49.875 -06:00 [DBG] Connection id "0HNMVP18SQDOO" completed keep alive response.
+2026-07-11 21:48:49.878 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 277.2726ms
+2026-07-11 21:48:49.886 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:48:49.854 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:49.863 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:48:49.867 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.896 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.899 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.903 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:48:49.910 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 247 ms
+2026-07-11 21:48:49.915 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 291 ms
+2026-07-11 21:48:49.920 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:48:49.925 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:48:49.929 -06:00 [DBG] Connection id "0HNMVP18SQDOL" completed keep alive response.
+2026-07-11 21:48:49.938 -06:00 [DBG] Connection id "0HNMVP18SQDOK" completed keep alive response.
+2026-07-11 21:48:49.942 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.945 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:49.947 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 345.0025ms
+2026-07-11 21:48:49.950 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 356.474ms
+2026-07-11 21:48:49.956 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 168 ms
+2026-07-11 21:48:49.989 -06:00 [DBG] Connection id "0HNMVP18SQDOM" completed keep alive response.
+2026-07-11 21:48:49.993 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 235.2917ms
+2026-07-11 21:48:49.960 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:48:50.012 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:48:50.015 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 210 ms
+2026-07-11 21:48:50.024 -06:00 [DBG] Connection id "0HNMVP18SQDON" completed keep alive response.
+2026-07-11 21:48:50.026 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 239.9385ms
+2026-07-11 21:50:58.307 -06:00 [INF] Application is shutting down...
+2026-07-11 21:50:58.309 -06:00 [DBG] Hosting stopping
+2026-07-11 21:50:58.321 -06:00 [DBG] Connection id "0HNMVP18SQDOK" disconnecting.
+2026-07-11 21:50:58.322 -06:00 [DBG] Connection id "0HNMVP18SQDOL" disconnecting.
+2026-07-11 21:50:58.322 -06:00 [DBG] Connection id "0HNMVP18SQDOM" disconnecting.
+2026-07-11 21:50:58.323 -06:00 [DBG] Connection id "0HNMVP18SQDON" disconnecting.
+2026-07-11 21:50:58.326 -06:00 [DBG] Connection id "0HNMVP18SQDOK" stopped.
+2026-07-11 21:50:58.327 -06:00 [DBG] Connection id "0HNMVP18SQDOL" stopped.
+2026-07-11 21:50:58.329 -06:00 [DBG] Connection id "0HNMVP18SQDOM" stopped.
+2026-07-11 21:50:58.334 -06:00 [DBG] Connection id "0HNMVP18SQDON" stopped.
+2026-07-11 21:50:58.343 -06:00 [DBG] Connection id "0HNMVP18SQDOO" disconnecting.
+2026-07-11 21:50:58.343 -06:00 [DBG] Connection id "0HNMVP18SQDOP" disconnecting.
+2026-07-11 21:50:58.343 -06:00 [DBG] Connection id "0HNMVP18SQDOK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:50:58.346 -06:00 [DBG] Connection id "0HNMVP18SQDOL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:50:58.350 -06:00 [DBG] Connection id "0HNMVP18SQDOO" stopped.
+2026-07-11 21:50:58.353 -06:00 [DBG] Connection id "0HNMVP18SQDOP" stopped.
+2026-07-11 21:50:58.359 -06:00 [DBG] Connection id "0HNMVP18SQDOM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:50:58.364 -06:00 [DBG] Connection id "0HNMVP18SQDON" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:50:58.371 -06:00 [DBG] Connection id "0HNMVP18SQDOO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:50:58.371 -06:00 [DBG] Connection id "0HNMVP18SQDOP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:50:58.395 -06:00 [DBG] Hosting stopped
+2026-07-11 21:51:13.272 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-07-11 21:51:13.550 -06:00 [DBG] Hosting starting
+2026-07-11 21:51:13.596 -06:00 [INF] User profile is available. Using 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-11 21:51:13.625 -06:00 [DBG] Reading data from file 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys\key-7fcc6b80-5b07-4876-9878-88305cf10417.xml'.
+2026-07-11 21:51:13.652 -06:00 [DBG] Found key {7fcc6b80-5b07-4876-9878-88305cf10417}.
+2026-07-11 21:51:13.688 -06:00 [DBG] Considering key {7fcc6b80-5b07-4876-9878-88305cf10417} with expiration date 2026-08-31 01:35:10Z as default key.
+2026-07-11 21:51:13.696 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-11 21:51:13.705 -06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-07-11 21:51:13.712 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-11 21:51:13.727 -06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-07-11 21:51:13.732 -06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-07-11 21:51:13.738 -06:00 [DBG] Using key {7fcc6b80-5b07-4876-9878-88305cf10417} as the default key.
+2026-07-11 21:51:13.743 -06:00 [DBG] Key ring with default key {7fcc6b80-5b07-4876-9878-88305cf10417} was loaded during application startup.
+2026-07-11 21:51:13.807 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-07-11 21:51:13.811 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-07-11 21:51:13.835 -06:00 [INF] Now listening on: http://localhost:5138
+2026-07-11 21:51:13.837 -06:00 [DBG] Loaded hosting startup assembly VulnerableApp
+2026-07-11 21:51:13.843 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-11 21:51:13.844 -06:00 [INF] Hosting environment: Development
+2026-07-11 21:51:13.847 -06:00 [INF] Content root path: C:\Users\valec\OneDrive\Documentos\git\VulnerableApp
+2026-07-11 21:51:13.849 -06:00 [DBG] Hosting started
+2026-07-11 21:52:41.126 -06:00 [DBG] Connection id "0HNMVP42S4KL2" accepted.
+2026-07-11 21:52:41.131 -06:00 [DBG] Connection id "0HNMVP42S4KL2" started.
+2026-07-11 21:52:41.132 -06:00 [DBG] Connection id "0HNMVP42S4KL3" accepted.
+2026-07-11 21:52:41.138 -06:00 [DBG] Connection id "0HNMVP42S4KL3" started.
+2026-07-11 21:52:41.187 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5138/Comment/AddComment - application/x-www-form-urlencoded 12
+2026-07-11 21:52:41.208 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-11 21:52:41.321 -06:00 [DBG] 1 candidate(s) found for the request path '/Comment/AddComment'
+2026-07-11 21:52:41.330 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment/AddComment'
+2026-07-11 21:52:41.337 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:52:41.350 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:52:41.407 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:52:41.415 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:52:41.417 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:41.421 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:52:41.427 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:52:41.431 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:41.442 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:41.445 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:41.460 -06:00 [DBG] Connection id "0HNMVP42S4KL2", Request id "0HNMVP42S4KL2:00000001": started reading request body.
+2026-07-11 21:52:41.463 -06:00 [DBG] Connection id "0HNMVP42S4KL2", Request id "0HNMVP42S4KL2:00000001": done reading request body.
+2026-07-11 21:52:41.476 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' ...
+2026-07-11 21:52:41.481 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' using the name 'comment' in request data ...
+2026-07-11 21:52:41.484 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:52:41.488 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:52:41.491 -06:00 [DBG] Attempting to validate the bound parameter 'comment' of type 'System.String' ...
+2026-07-11 21:52:41.502 -06:00 [DBG] Done attempting to validate the bound parameter 'comment' of type 'System.String'.
+2026-07-11 21:52:41.517 -06:00 [INF] Inicio CommentController.AddComment | Usuario: Anónimo | IP: ::1 | Comentario: hola
+2026-07-11 21:52:41.520 -06:00 [INF] Fin CommentController.AddComment | Tiempo de ejecución: 12 ms
+2026-07-11 21:52:41.555 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Comment])
+2026-07-11 21:52:41.565 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Comment and 
+2026-07-11 21:52:41.571 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Comment
+2026-07-11 21:52:41.575 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-11 21:52:41.585 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 140.44ms
+2026-07-11 21:52:41.588 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:52:41.592 -06:00 [INF] Solicitud: POST /Comment/AddComment | Código: 302 | Tiempo: 384 ms
+2026-07-11 21:52:41.600 -06:00 [DBG] Connection id "0HNMVP42S4KL2" completed keep alive response.
+2026-07-11 21:52:41.605 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5138/Comment/AddComment - 302 0 null 420.009ms
+2026-07-11 21:52:41.617 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/Comment - null null
+2026-07-11 21:52:41.628 -06:00 [DBG] 2 candidate(s) found for the request path '/Comment'
+2026-07-11 21:52:41.630 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment'
+2026-07-11 21:52:41.640 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'Comment' for the request path '/Comment'
+2026-07-11 21:52:41.647 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/Comment'
+2026-07-11 21:52:41.650 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:52:41.653 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:52:41.661 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:52:41.665 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:52:41.667 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:41.670 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:52:41.677 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:52:41.679 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:41.682 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:41.684 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:41.689 -06:00 [INF] Inicio CommentController.Index | Usuario: Anónimo | IP: ::1
+2026-07-11 21:52:41.694 -06:00 [INF] Fin CommentController.Index | Tiempo de ejecución: 6 ms
+2026-07-11 21:52:41.700 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Auth/Dashboard.cshtml'.
+2026-07-11 21:52:41.702 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Auth/Login.cshtml'.
+2026-07-11 21:52:41.705 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Comment/Index.cshtml'.
+2026-07-11 21:52:41.708 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2026-07-11 21:52:41.710 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2026-07-11 21:52:41.711 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Search/Index.cshtml'.
+2026-07-11 21:52:41.714 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2026-07-11 21:52:41.717 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2026-07-11 21:52:41.719 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2026-07-11 21:52:41.724 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2026-07-11 21:52:41.726 -06:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2026-07-11 21:52:41.738 -06:00 [DBG] View lookup cache miss for view 'Index' in controller 'Comment'.
+2026-07-11 21:52:41.753 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:52:41.759 -06:00 [DBG] The view path '/Views/Comment/Index.cshtml' was found in 21.1545ms.
+2026-07-11 21:52:41.841 -06:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Comment'.
+2026-07-11 21:52:41.973 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:52:41.982 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:52:41.987 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:52:41.994 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:52:42.002 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:52:42.009 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:52:42.019 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:52:42.024 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:52:42.034 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:52:42.044 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:52:42.057 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:52:42.067 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:52:42.100 -06:00 [INF] Executed ViewResult - view Index executed in 362.6183ms.
+2026-07-11 21:52:42.122 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 439.9598ms
+2026-07-11 21:52:42.128 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:52:42.134 -06:00 [INF] Solicitud: GET /Comment | Código: 200 | Tiempo: 512 ms
+2026-07-11 21:52:42.142 -06:00 [DBG] Connection id "0HNMVP42S4KL2" completed keep alive response.
+2026-07-11 21:52:42.153 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/Comment - 200 null text/html; charset=utf-8 535.485ms
+2026-07-11 21:52:42.176 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:52:42.182 -06:00 [DBG] Connection id "0HNMVP42S4KL4" accepted.
+2026-07-11 21:52:42.185 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:52:42.192 -06:00 [DBG] Connection id "0HNMVP42S4KL5" accepted.
+2026-07-11 21:52:42.204 -06:00 [DBG] Connection id "0HNMVP42S4KL6" accepted.
+2026-07-11 21:52:42.201 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:42.201 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:52:42.193 -06:00 [DBG] Connection id "0HNMVP42S4KL4" started.
+2026-07-11 21:52:42.207 -06:00 [DBG] Connection id "0HNMVP42S4KL7" accepted.
+2026-07-11 21:52:42.211 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:42.213 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:52:42.220 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:52:42.240 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:42.243 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:42.252 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:42.223 -06:00 [DBG] Connection id "0HNMVP42S4KL5" started.
+2026-07-11 21:52:42.266 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:52:42.230 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:52:42.262 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:42.227 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:42.272 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:42.277 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:52:42.286 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:42.290 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:42.295 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:42.318 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:42.303 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.307 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:42.334 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.327 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:42.367 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:42.388 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.300 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:42.395 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.410 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:52:42.411 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:52:42.493 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.496 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 297 ms
+2026-07-11 21:52:42.488 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.469 -06:00 [DBG] Connection id "0HNMVP42S4KL6" started.
+2026-07-11 21:52:42.477 -06:00 [DBG] Connection id "0HNMVP42S4KL7" started.
+2026-07-11 21:52:42.507 -06:00 [DBG] Connection id "0HNMVP42S4KL3" completed keep alive response.
+2026-07-11 21:52:42.510 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 270 ms
+2026-07-11 21:52:42.513 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:52:42.532 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:52:42.534 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 348.2214ms
+2026-07-11 21:52:42.538 -06:00 [DBG] Connection id "0HNMVP42S4KL4" completed keep alive response.
+2026-07-11 21:52:42.554 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:52:42.554 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:42.594 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:52:42.595 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 374.3133ms
+2026-07-11 21:52:42.601 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:52:42.608 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:42.615 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.623 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:52:42.651 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.654 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 460 ms
+2026-07-11 21:52:42.651 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 379 ms
+2026-07-11 21:52:42.639 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:52:42.643 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:42.671 -06:00 [DBG] Connection id "0HNMVP42S4KL2" completed keep alive response.
+2026-07-11 21:52:42.673 -06:00 [DBG] Connection id "0HNMVP42S4KL5" completed keep alive response.
+2026-07-11 21:52:42.696 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:52:42.705 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:42.708 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 531.6337ms
+2026-07-11 21:52:42.710 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 443.6561ms
+2026-07-11 21:52:42.720 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:42.727 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:42.771 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.776 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.785 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:52:42.795 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:52:42.795 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.806 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:42.811 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 257 ms
+2026-07-11 21:52:42.843 -06:00 [DBG] Connection id "0HNMVP42S4KL7" completed keep alive response.
+2026-07-11 21:52:42.846 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 313.6966ms
+2026-07-11 21:52:42.829 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 281 ms
+2026-07-11 21:52:42.865 -06:00 [DBG] Connection id "0HNMVP42S4KL6" completed keep alive response.
+2026-07-11 21:52:42.875 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 361.8613ms
+2026-07-11 21:52:46.553 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5138/Comment/AddComment - application/x-www-form-urlencoded 19
+2026-07-11 21:52:46.563 -06:00 [DBG] 1 candidate(s) found for the request path '/Comment/AddComment'
+2026-07-11 21:52:46.567 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment/AddComment'
+2026-07-11 21:52:46.572 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:52:46.580 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:52:46.583 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:52:46.588 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:52:46.591 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:46.595 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:52:46.599 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:52:46.602 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:46.608 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:46.610 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:46.613 -06:00 [DBG] Connection id "0HNMVP42S4KL6", Request id "0HNMVP42S4KL6:00000002": started reading request body.
+2026-07-11 21:52:46.615 -06:00 [DBG] Connection id "0HNMVP42S4KL6", Request id "0HNMVP42S4KL6:00000002": done reading request body.
+2026-07-11 21:52:46.619 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' ...
+2026-07-11 21:52:46.623 -06:00 [DBG] Attempting to bind parameter 'comment' of type 'System.String' using the name 'comment' in request data ...
+2026-07-11 21:52:46.627 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:52:46.629 -06:00 [DBG] Done attempting to bind parameter 'comment' of type 'System.String'.
+2026-07-11 21:52:46.631 -06:00 [DBG] Attempting to validate the bound parameter 'comment' of type 'System.String' ...
+2026-07-11 21:52:46.634 -06:00 [DBG] Done attempting to validate the bound parameter 'comment' of type 'System.String'.
+2026-07-11 21:52:46.639 -06:00 [INF] Inicio CommentController.AddComment | Usuario: Anónimo | IP: ::1 | Comentario: cCOMENTARIO
+2026-07-11 21:52:46.642 -06:00 [INF] Fin CommentController.AddComment | Tiempo de ejecución: 2 ms
+2026-07-11 21:52:46.646 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Comment])
+2026-07-11 21:52:46.651 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Comment and 
+2026-07-11 21:52:46.657 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Comment
+2026-07-11 21:52:46.660 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-11 21:52:46.662 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 55.0163ms
+2026-07-11 21:52:46.664 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-11 21:52:46.666 -06:00 [INF] Solicitud: POST /Comment/AddComment | Código: 302 | Tiempo: 104 ms
+2026-07-11 21:52:46.671 -06:00 [DBG] Connection id "0HNMVP42S4KL6" completed keep alive response.
+2026-07-11 21:52:46.674 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5138/Comment/AddComment - 302 0 null 121.1651ms
+2026-07-11 21:52:46.681 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/Comment - null null
+2026-07-11 21:52:46.686 -06:00 [DBG] 2 candidate(s) found for the request path '/Comment'
+2026-07-11 21:52:46.688 -06:00 [DBG] Endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Comment'
+2026-07-11 21:52:46.692 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'Comment' for the request path '/Comment'
+2026-07-11 21:52:46.701 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/Comment'
+2026-07-11 21:52:46.704 -06:00 [DBG] Request matched endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:52:46.706 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:52:46.707 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-11 21:52:46.711 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-07-11 21:52:46.713 -06:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:46.719 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-07-11 21:52:46.725 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-07-11 21:52:46.728 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-07-11 21:52:46.733 -06:00 [DBG] Executing controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:46.737 -06:00 [DBG] Executed controller factory for controller VulnerableApp.Controllers.CommentController (VulnerableApp)
+2026-07-11 21:52:46.739 -06:00 [INF] Inicio CommentController.Index | Usuario: Anónimo | IP: ::1
+2026-07-11 21:52:46.741 -06:00 [INF] Fin CommentController.Index | Tiempo de ejecución: 2 ms
+2026-07-11 21:52:46.743 -06:00 [DBG] View lookup cache hit for view 'Index' in controller 'Comment'.
+2026-07-11 21:52:46.746 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-11 21:52:46.750 -06:00 [DBG] The view path '/Views/Comment/Index.cshtml' was found in 6.9977ms.
+2026-07-11 21:52:46.758 -06:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Comment'.
+2026-07-11 21:52:46.764 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:52:46.767 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:52:46.771 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:52:46.773 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2026-07-11 21:52:46.777 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2026-07-11 21:52:46.783 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-07-11 21:52:46.785 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:52:46.788 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:52:46.791 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:52:46.794 -06:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2026-07-11 21:52:46.802 -06:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2026-07-11 21:52:46.805 -06:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2026-07-11 21:52:46.809 -06:00 [INF] Executed ViewResult - view Index executed in 65.5623ms.
+2026-07-11 21:52:46.815 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 81.3711ms
+2026-07-11 21:52:46.822 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-11 21:52:46.829 -06:00 [INF] Solicitud: GET /Comment | Código: 200 | Tiempo: 142 ms
+2026-07-11 21:52:46.833 -06:00 [DBG] Connection id "0HNMVP42S4KL6" completed keep alive response.
+2026-07-11 21:52:46.837 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/Comment - 200 null text/html; charset=utf-8 156.2458ms
+2026-07-11 21:52:46.874 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-11 21:52:46.887 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-11 21:52:46.889 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-11 21:52:46.890 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - null null
+2026-07-11 21:52:46.892 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-11 21:52:46.893 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-11 21:52:46.900 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:46.945 -06:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2026-07-11 21:52:46.947 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:52:46.950 -06:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2026-07-11 21:52:46.958 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2026-07-11 21:52:46.923 -06:00 [DBG] 3 candidate(s) found for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:46.917 -06:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2026-07-11 21:52:46.945 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:46.979 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:46.970 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:46.974 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:52:46.966 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:46.987 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2026-07-11 21:52:46.990 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:46.992 -06:00 [DBG] Endpoint 'null' with route pattern 'VulnerableApp.styles.css' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:46.995 -06:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2026-07-11 21:52:47.003 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.008 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:47.010 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:47.023 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2026-07-11 21:52:47.025 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/VulnerableApp.styles.css'
+2026-07-11 21:52:47.027 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-11 21:52:47.053 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.035 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:47.040 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:47.048 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:47.031 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.058 -06:00 [INF] Solicitud: GET /js/site.js | Código: 200 | Tiempo: 116 ms
+2026-07-11 21:52:47.065 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2026-07-11 21:52:47.069 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.071 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.079 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-11 21:52:47.080 -06:00 [DBG] Connection id "0HNMVP42S4KL3" completed keep alive response.
+2026-07-11 21:52:47.085 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:47.088 -06:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:47.091 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-11 21:52:47.096 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-11 21:52:47.099 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.102 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 208.8173ms
+2026-07-11 21:52:47.106 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.111 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:47.134 -06:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:47.116 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.120 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/css/bootstrap.min.css | Código: 200 | Tiempo: 220 ms
+2026-07-11 21:52:47.133 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-11 21:52:47.114 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.144 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2026-07-11 21:52:47.147 -06:00 [INF] Solicitud: GET /VulnerableApp.styles.css | Código: 200 | Tiempo: 223 ms
+2026-07-11 21:52:47.156 -06:00 [DBG] Connection id "0HNMVP42S4KL6" completed keep alive response.
+2026-07-11 21:52:47.160 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.162 -06:00 [INF] Solicitud: GET /css/site.css | Código: 200 | Tiempo: 251 ms
+2026-07-11 21:52:47.165 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-11 21:52:47.167 -06:00 [DBG] Connection id "0HNMVP42S4KL2" completed keep alive response.
+2026-07-11 21:52:47.172 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 298.1918ms
+2026-07-11 21:52:47.174 -06:00 [INF] Solicitud: GET /lib/jquery/dist/jquery.min.js | Código: 200 | Tiempo: 245 ms
+2026-07-11 21:52:47.176 -06:00 [DBG] Connection id "0HNMVP42S4KL7" completed keep alive response.
+2026-07-11 21:52:47.179 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.181 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 291.8452ms
+2026-07-11 21:52:47.192 -06:00 [DBG] Connection id "0HNMVP42S4KL5" completed keep alive response.
+2026-07-11 21:52:47.211 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 321.0357ms
+2026-07-11 21:52:47.201 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-11 21:52:47.194 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 306.9441ms
+2026-07-11 21:52:47.227 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-11 21:52:47.240 -06:00 [INF] Solicitud: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js | Código: 200 | Tiempo: 305 ms
+2026-07-11 21:52:47.244 -06:00 [DBG] Connection id "0HNMVP42S4KL4" completed keep alive response.
+2026-07-11 21:52:47.247 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 355.0093ms
+2026-07-11 21:54:58.173 -06:00 [DBG] Connection id "0HNMVP42S4KL4" disconnecting.
+2026-07-11 21:54:58.173 -06:00 [DBG] Connection id "0HNMVP42S4KL3" disconnecting.
+2026-07-11 21:54:58.173 -06:00 [DBG] Connection id "0HNMVP42S4KL5" disconnecting.
+2026-07-11 21:54:58.173 -06:00 [DBG] Connection id "0HNMVP42S4KL2" disconnecting.
+2026-07-11 21:54:58.178 -06:00 [DBG] Connection id "0HNMVP42S4KL4" stopped.
+2026-07-11 21:54:58.179 -06:00 [DBG] Connection id "0HNMVP42S4KL3" stopped.
+2026-07-11 21:54:58.190 -06:00 [DBG] Connection id "0HNMVP42S4KL7" disconnecting.
+2026-07-11 21:54:58.183 -06:00 [DBG] Connection id "0HNMVP42S4KL2" stopped.
+2026-07-11 21:54:58.190 -06:00 [DBG] Connection id "0HNMVP42S4KL6" disconnecting.
+2026-07-11 21:54:58.181 -06:00 [DBG] Connection id "0HNMVP42S4KL5" stopped.
+2026-07-11 21:54:58.194 -06:00 [DBG] Connection id "0HNMVP42S4KL7" stopped.
+2026-07-11 21:54:58.196 -06:00 [DBG] Connection id "0HNMVP42S4KL4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:54:58.198 -06:00 [DBG] Connection id "0HNMVP42S4KL6" stopped.
+2026-07-11 21:54:58.199 -06:00 [DBG] Connection id "0HNMVP42S4KL3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:54:58.201 -06:00 [DBG] Connection id "0HNMVP42S4KL2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:54:58.208 -06:00 [DBG] Connection id "0HNMVP42S4KL5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:54:58.214 -06:00 [DBG] Connection id "0HNMVP42S4KL7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 21:54:58.217 -06:00 [DBG] Connection id "0HNMVP42S4KL6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-11 22:19:09.030 -06:00 [INF] Application is shutting down...
+2026-07-11 22:19:09.036 -06:00 [DBG] Hosting stopping
+2026-07-11 22:19:09.064 -06:00 [DBG] Hosting stopped
