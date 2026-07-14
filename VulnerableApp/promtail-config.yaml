@@ -3,7 +3,7 @@ server:
   grpc_listen_port: 0
 
 positions:
-  filename: /tmp/positions.yaml 
+  filename: /tmp/positions4.yaml 
 
 clients:
   - url: http://loki:3100/loki/api/v1/push
@@ -17,13 +17,17 @@ scrape_configs:
           job: vulnerableapp
           env: development
           __path__: /var/log/applogs/*.txt
-
+    
     pipeline_stages:
-      - match:
-          selector: '{job="vulnerableapp"}'
-          stages:
-            - regex:
-                expression: '(?P<Security>Security)|(?P<Audit>Audit)'
-            - labels:
-                Security:
-                Audit:
+      - regex:
+          expression: '(?P<Security>EVENTO AUTH|inválidas)'
+      - labels:
+          Security:
+      - regex:
+          expression: '(?P<Application>Error|Exception)'
+      - labels:
+          Application:
+      - regex:
+          expression: '(?P<Audit>\[INF\]|Inicio)'
+      - labels:
+          Audit:
