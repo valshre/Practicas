@@ -25,6 +25,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
            .ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning))
 );
 builder.Services.AddSession();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // ====================================================
@@ -94,7 +96,19 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+app.UseSwagger();
+app.UseSwaggerUI();
+// Middleware global de seguridad HTTP
+app.Use(async (context, next) =>
+{
+    // Mitigación de Clickjacking: Bloquea completamente el framing del sitio
+    context.Response.Headers.Append("X-Frame-Options", "DENY");
+    
+    // Defensa en profundidad: Configuración básica de CSP
+    context.Response.Headers.Append("Content-Security-Policy", "frame-ancestors 'none';");
 
+    await next();
+});
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")

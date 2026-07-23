@@ -235,3 +235,10 @@ C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.S
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Sinks.File.dll
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Sinks.Seq.dll
 C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Serilog.Enrichers.Environment.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\zap-reports\baseline-report.json
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\zap-reports\fullscan-report.json
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\VulnerableApp.MvcApplicationPartsAssemblyInfo.cs

@@ -1,77 +1,48 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Http;
+using System.Text.Encodings.Web; // Librería necesaria para el HtmlEncoder
 using System.Collections.Generic;
 
 namespace VulnerableApp.Controllers
 {
     public class CommentController : Controller
     {
+        // Se mantiene la lista estática en memoria según tu Actividad 1 y 3
         private static List<string> _comments = new();
-        private readonly ILogger<CommentController> _logger;
-
-        public CommentController(ILogger<CommentController> logger)
-        {
-            _logger = logger;
-        }
 
         public IActionResult Index()
         {
-            var stopwatch = Stopwatch.StartNew();
-            var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Desconocida";
-            var usuario = HttpContext.Session.GetString("User") ?? "Anónimo";
-
-            _logger.LogInformation("Inicio CommentController.Index | Usuario: {Usuario} | IP: {IP}", usuario, ip);
-
-            try
-            {
-                
-                return View(_comments);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error en CommentController.Index");
-                throw;
-            }
-            finally
-            {
-                stopwatch.Stop();
-                _logger.LogInformation("Fin CommentController.Index | Tiempo de ejecución: {TiempoMs} ms", stopwatch.ElapsedMilliseconds);
-            }
+            return View(_comments);
         }
 
         [HttpPost]
         public IActionResult AddComment(string comment)
         {
-            var stopwatch = Stopwatch.StartNew();
-            var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Desconocida";
-            var usuario = HttpContext.Session.GetString("User") ?? "Anónimo";
-
-            _logger.LogInformation("Inicio CommentController.AddComment | Usuario: {Usuario} | IP: {IP} | Comentario: {Comment}", usuario, ip, comment);
-
-            try
+        
+            if (!string.IsNullOrEmpty(comment))
             {
-                if (!string.IsNullOrEmpty(comment))
-                {
-                    _comments.Add(comment);
-                }
-                else
-                {
-                    _logger.LogWarning("El usuario {Usuario} intentó enviar un comentario vacío.", usuario);
-                }
-                return RedirectToAction("Index");
+                // converte cualquier etiqueta  script en texto inofensivo
+                string safeComment = HtmlEncoder.Default.Encode(comment);
+            
+                _comments.Add(safeComment);
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al agregar comentario por el usuario {Usuario}", usuario);
-                throw;
-            }
-            finally
-            {
-                stopwatch.Stop();
-                _logger.LogInformation("Fin CommentController.AddComment | Tiempo de ejecución: {TiempoMs} ms", stopwatch.ElapsedMilliseconds);
-            }
+            
+            return RedirectToAction("Index");
         }
     }
+public class CommentController : Controller
+{
+private static List<string> _comments = new();
+public IActionResult Index()
+{
+return View(_comments);
+}
+[HttpPost]
+public IActionResult AddComment(string comment)
+{
+if (!string.IsNullOrEmpty(comment))
+{
+_comments.Add(comment);
+}
+return RedirectToAction("Index");
+}
 }

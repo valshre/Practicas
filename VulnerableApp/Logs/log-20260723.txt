@@ -1,0 +1,168 @@
+2026-07-23 00:12:56.347 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-07-23 00:12:57.402 -06:00 [DBG] Hosting starting
+2026-07-23 00:12:57.445 -06:00 [INF] User profile is available. Using 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 00:12:57.477 -06:00 [DBG] Reading data from file 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys\key-7fcc6b80-5b07-4876-9878-88305cf10417.xml'.
+2026-07-23 00:12:57.557 -06:00 [DBG] Found key {7fcc6b80-5b07-4876-9878-88305cf10417}.
+2026-07-23 00:12:57.599 -06:00 [DBG] Considering key {7fcc6b80-5b07-4876-9878-88305cf10417} with expiration date 2026-08-31 01:35:10Z as default key.
+2026-07-23 00:12:57.609 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-23 00:12:57.624 -06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-07-23 00:12:57.633 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-23 00:12:57.644 -06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-07-23 00:12:57.649 -06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-07-23 00:12:57.653 -06:00 [DBG] Using key {7fcc6b80-5b07-4876-9878-88305cf10417} as the default key.
+2026-07-23 00:12:57.657 -06:00 [DBG] Key ring with default key {7fcc6b80-5b07-4876-9878-88305cf10417} was loaded during application startup.
+2026-07-23 00:12:57.842 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-07-23 00:12:57.847 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-07-23 00:12:57.890 -06:00 [INF] Now listening on: http://localhost:5138
+2026-07-23 00:12:57.905 -06:00 [DBG] Loaded hosting startup assembly VulnerableApp
+2026-07-23 00:12:57.918 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 00:12:57.922 -06:00 [INF] Hosting environment: Development
+2026-07-23 00:12:57.931 -06:00 [INF] Content root path: C:\Users\valec\OneDrive\Documentos\git\VulnerableApp
+2026-07-23 00:12:57.935 -06:00 [DBG] Hosting started
+2026-07-23 00:14:59.141 -06:00 [INF] Application is shutting down...
+2026-07-23 00:14:59.146 -06:00 [DBG] Hosting stopping
+2026-07-23 00:14:59.183 -06:00 [DBG] Hosting stopped
+2026-07-23 00:18:55.997 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-07-23 00:18:56.499 -06:00 [DBG] Hosting starting
+2026-07-23 00:18:56.692 -06:00 [INF] User profile is available. Using 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 00:18:56.743 -06:00 [DBG] Reading data from file 'C:\Users\valec\AppData\Local\ASP.NET\DataProtection-Keys\key-7fcc6b80-5b07-4876-9878-88305cf10417.xml'.
+2026-07-23 00:18:56.769 -06:00 [DBG] Found key {7fcc6b80-5b07-4876-9878-88305cf10417}.
+2026-07-23 00:18:56.812 -06:00 [DBG] Considering key {7fcc6b80-5b07-4876-9878-88305cf10417} with expiration date 2026-08-31 01:35:10Z as default key.
+2026-07-23 00:18:56.820 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-23 00:18:56.830 -06:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-07-23 00:18:56.835 -06:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-07-23 00:18:56.853 -06:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-07-23 00:18:56.858 -06:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-07-23 00:18:56.865 -06:00 [DBG] Using key {7fcc6b80-5b07-4876-9878-88305cf10417} as the default key.
+2026-07-23 00:18:56.869 -06:00 [DBG] Key ring with default key {7fcc6b80-5b07-4876-9878-88305cf10417} was loaded during application startup.
+2026-07-23 00:18:57.071 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-07-23 00:18:57.093 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-07-23 00:18:57.144 -06:00 [INF] Now listening on: http://localhost:5138
+2026-07-23 00:18:57.147 -06:00 [DBG] Loaded hosting startup assembly VulnerableApp
+2026-07-23 00:18:57.150 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 00:18:57.152 -06:00 [INF] Hosting environment: Development
+2026-07-23 00:18:57.154 -06:00 [INF] Content root path: C:\Users\valec\OneDrive\Documentos\git\VulnerableApp
+2026-07-23 00:18:57.160 -06:00 [DBG] Hosting started
+2026-07-23 00:19:53.313 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" accepted.
+2026-07-23 00:19:53.320 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" started.
+2026-07-23 00:19:53.320 -06:00 [DBG] Connection id "0HNN8G9KB4K9L" accepted.
+2026-07-23 00:19:53.332 -06:00 [DBG] Connection id "0HNN8G9KB4K9L" started.
+2026-07-23 00:19:53.442 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger - null null
+2026-07-23 00:19:53.476 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-23 00:19:53.748 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger'
+2026-07-23 00:19:53.764 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger' for the request path '/swagger'
+2026-07-23 00:19:53.778 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger'
+2026-07-23 00:19:53.786 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:53.862 -06:00 [INF] Solicitud: GET /swagger | Código: 301 | Tiempo: 385 ms
+2026-07-23 00:19:53.884 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" completed keep alive response.
+2026-07-23 00:19:53.908 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger - 301 0 null 469.9936ms
+2026-07-23 00:19:53.922 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - null null
+2026-07-23 00:19:53.948 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/index.html'
+2026-07-23 00:19:53.952 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/index.html' for the request path '/swagger/index.html'
+2026-07-23 00:19:53.958 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/index.html'
+2026-07-23 00:19:53.961 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.062 -06:00 [INF] Solicitud: GET /swagger/index.html | Código: 200 | Tiempo: 123 ms
+2026-07-23 00:19:54.066 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" completed keep alive response.
+2026-07-23 00:19:54.071 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - 200 null text/html;charset=utf-8 148.5884ms
+2026-07-23 00:19:54.086 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.css - null null
+2026-07-23 00:19:54.087 -06:00 [DBG] Connection id "0HNN8G9KB4K9M" accepted.
+2026-07-23 00:19:54.095 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - null null
+2026-07-23 00:19:54.104 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/index.css'
+2026-07-23 00:19:54.107 -06:00 [DBG] Connection id "0HNN8G9KB4K9M" started.
+2026-07-23 00:19:54.107 -06:00 [DBG] Connection id "0HNN8G9KB4K9N" accepted.
+2026-07-23 00:19:54.114 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/swagger-ui.css'
+2026-07-23 00:19:54.117 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/index.css' for the request path '/swagger/index.css'
+2026-07-23 00:19:54.124 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - null null
+2026-07-23 00:19:54.126 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" accepted.
+2026-07-23 00:19:54.130 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/swagger-ui.css' for the request path '/swagger/swagger-ui.css'
+2026-07-23 00:19:54.143 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/index.css'
+2026-07-23 00:19:54.148 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/swagger-ui-bundle.js'
+2026-07-23 00:19:54.152 -06:00 [DBG] Connection id "0HNN8G9KB4K9N" started.
+2026-07-23 00:19:54.158 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/swagger-ui.css'
+2026-07-23 00:19:54.162 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.164 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/swagger-ui-bundle.js' for the request path '/swagger/swagger-ui-bundle.js'
+2026-07-23 00:19:54.169 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-23 00:19:54.172 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.179 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/swagger-ui-bundle.js'
+2026-07-23 00:19:54.186 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-07-23 00:19:54.192 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.196 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/swagger-ui-standalone-preset.js' for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-07-23 00:19:54.227 -06:00 [INF] Solicitud: GET /swagger/index.css | Código: 200 | Tiempo: 122 ms
+2026-07-23 00:19:54.227 -06:00 [INF] Solicitud: GET /swagger/swagger-ui.css | Código: 200 | Tiempo: 112 ms
+2026-07-23 00:19:54.232 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-07-23 00:19:54.237 -06:00 [DBG] Connection id "0HNN8G9KB4K9L" completed keep alive response.
+2026-07-23 00:19:54.243 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" completed keep alive response.
+2026-07-23 00:19:54.249 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.252 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.css - 200 152 text/css 166.2842ms
+2026-07-23 00:19:54.255 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - 200 26499 text/css 159.5893ms
+2026-07-23 00:19:54.267 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" started.
+2026-07-23 00:19:54.295 -06:00 [INF] Solicitud: GET /swagger/swagger-ui-standalone-preset.js | Código: 200 | Tiempo: 108 ms
+2026-07-23 00:19:54.310 -06:00 [INF] Solicitud: GET /swagger/swagger-ui-bundle.js | Código: 200 | Tiempo: 161 ms
+2026-07-23 00:19:54.331 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.js - null null
+2026-07-23 00:19:54.340 -06:00 [DBG] Connection id "0HNN8G9KB4K9N" completed keep alive response.
+2026-07-23 00:19:54.344 -06:00 [DBG] Connection id "0HNN8G9KB4K9M" completed keep alive response.
+2026-07-23 00:19:54.350 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/index.js'
+2026-07-23 00:19:54.353 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - 200 77731 text/javascript 184.1617ms
+2026-07-23 00:19:54.357 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - 200 421507 text/javascript 233.8171ms
+2026-07-23 00:19:54.361 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/index.js' for the request path '/swagger/index.js'
+2026-07-23 00:19:54.383 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/index.js'
+2026-07-23 00:19:54.387 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.393 -06:00 [INF] Solicitud: GET /swagger/index.js | Código: 200 | Tiempo: 42 ms
+2026-07-23 00:19:54.399 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" completed keep alive response.
+2026-07-23 00:19:54.402 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.js - 200 null application/javascript;charset=utf-8 71.105ms
+2026-07-23 00:19:54.720 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - null null
+2026-07-23 00:19:54.726 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/v1/swagger.json'
+2026-07-23 00:19:54.731 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/v1/swagger.json' for the request path '/swagger/v1/swagger.json'
+2026-07-23 00:19:54.740 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/v1/swagger.json'
+2026-07-23 00:19:54.744 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.762 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-07-23 00:19:54.777 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-07-23 00:19:54.828 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - null null
+2026-07-23 00:19:54.837 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/favicon-32x32.png'
+2026-07-23 00:19:54.840 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/favicon-32x32.png' for the request path '/swagger/favicon-32x32.png'
+2026-07-23 00:19:54.848 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/favicon-32x32.png'
+2026-07-23 00:19:54.852 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:19:54.865 -06:00 [INF] Solicitud: GET /swagger/favicon-32x32.png | Código: 200 | Tiempo: 27 ms
+2026-07-23 00:19:54.869 -06:00 [DBG] Connection id "0HNN8G9KB4K9M" completed keep alive response.
+2026-07-23 00:19:54.874 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - 200 628 image/png 45.7552ms
+2026-07-23 00:19:55.035 -06:00 [INF] Solicitud: GET /swagger/v1/swagger.json | Código: 200 | Tiempo: 308 ms
+2026-07-23 00:19:55.039 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" completed keep alive response.
+2026-07-23 00:19:55.043 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 322.5462ms
+2026-07-23 00:22:01.230 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - null null
+2026-07-23 00:22:01.288 -06:00 [DBG] 1 candidate(s) found for the request path '/swagger/v1/swagger.json'
+2026-07-23 00:22:01.291 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'swagger/v1/swagger.json' for the request path '/swagger/v1/swagger.json'
+2026-07-23 00:22:01.322 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/swagger/v1/swagger.json'
+2026-07-23 00:22:01.328 -06:00 [DBG] Request did not match any endpoints
+2026-07-23 00:22:01.337 -06:00 [INF] Solicitud: GET /swagger/v1/swagger.json | Código: 200 | Tiempo: 48 ms
+2026-07-23 00:22:01.341 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" completed keep alive response.
+2026-07-23 00:22:01.348 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.0987ms
+2026-07-23 00:22:01.417 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5138/favicon.ico - null null
+2026-07-23 00:22:01.425 -06:00 [DBG] 3 candidate(s) found for the request path '/favicon.ico'
+2026-07-23 00:22:01.429 -06:00 [DBG] Endpoint 'null' with route pattern 'favicon.ico' is valid for the request path '/favicon.ico'
+2026-07-23 00:22:01.433 -06:00 [DBG] Endpoint 'null' with route pattern 'favicon.ico' is valid for the request path '/favicon.ico'
+2026-07-23 00:22:01.438 -06:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/favicon.ico'
+2026-07-23 00:22:01.450 -06:00 [DBG] Request matched endpoint 'null'
+2026-07-23 00:22:01.467 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-23 00:22:01.500 -06:00 [INF] Sending file. Request path: 'favicon.ico'. Physical path: 'C:\Users\valec\OneDrive\Documentos\git\VulnerableApp\obj\Debug\net10.0\compressed\r4plb4jrvv-{0}-61n19gt1b8-61n19gt1b8.gz'
+2026-07-23 00:22:01.504 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-23 00:22:01.510 -06:00 [INF] Solicitud: GET /favicon.ico | Código: 200 | Tiempo: 86 ms
+2026-07-23 00:22:01.513 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" completed keep alive response.
+2026-07-23 00:22:01.515 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5138/favicon.ico - 200 5463 image/x-icon 97.5281ms
+2026-07-23 00:22:04.970 -06:00 [DBG] Connection id "0HNN8G9KB4K9L" disconnecting.
+2026-07-23 00:22:04.970 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" disconnecting.
+2026-07-23 00:22:04.974 -06:00 [DBG] Connection id "0HNN8G9KB4K9L" stopped.
+2026-07-23 00:22:04.974 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" stopped.
+2026-07-23 00:22:04.983 -06:00 [DBG] Connection id "0HNN8G9KB4K9L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-23 00:22:04.983 -06:00 [DBG] Connection id "0HNN8G9KB4K9K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-23 00:22:05.984 -06:00 [DBG] Connection id "0HNN8G9KB4K9M" disconnecting.
+2026-07-23 00:22:05.986 -06:00 [DBG] Connection id "0HNN8G9KB4K9N" disconnecting.
+2026-07-23 00:22:05.989 -06:00 [DBG] Connection id "0HNN8G9KB4K9M" stopped.
+2026-07-23 00:22:05.991 -06:00 [DBG] Connection id "0HNN8G9KB4K9N" stopped.
+2026-07-23 00:22:05.994 -06:00 [DBG] Connection id "0HNN8G9KB4K9M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-23 00:22:05.999 -06:00 [DBG] Connection id "0HNN8G9KB4K9N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-23 00:24:12.126 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" disconnecting.
+2026-07-23 00:24:12.136 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" stopped.
+2026-07-23 00:24:12.138 -06:00 [DBG] Connection id "0HNN8G9KB4K9O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-07-23 00:34:24.813 -06:00 [INF] Application is shutting down...
+2026-07-23 00:34:24.818 -06:00 [DBG] Hosting stopping
+2026-07-23 00:34:24.848 -06:00 [DBG] Hosting stopped
